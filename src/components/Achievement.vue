@@ -25,10 +25,21 @@
                     width: 100%;
                     font-size: 22px;
                     color: #00356B;
+                    line-height: 42px;
                     border-bottom: 1px solid #00356B;
+                    margin-bottom: 31px;
                 }
-                .show {
-                    display: block;
+                .simple {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    .block {
+                        display: inline-block;
+                        width: 32%;
+                        height: 310px;
+                        background-color: #00356B;
+                        margin-bottom: 22px;
+                    }
                 }
                 .noShow {
                     display: none;
@@ -64,10 +75,30 @@
                  </div>
                  <div class="right">
                     <div class="right_title">{{curTitle}}</div>
-                    <div :class="[activeIndex === 'paper' ? 'show': 'noShow']">发表论文</div>
-                    <div :class="[activeIndex === 'science' ? 'show': 'noShow']">科研成果</div>
-                    <div :class="[activeIndex === 'software' ? 'show': 'noShow']">软件成果</div>
-                    <div :class="[activeIndex === 'apparatus' ? 'show': 'noShow']">仪器设备</div>
+                    <div :class="[activeIndex === 'paper' ? 'simple': 'noShow']">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                    <div :class="[activeIndex === 'science' ? 'simple': 'noShow']">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                    <div :class="[activeIndex === 'software' ? 'simple': 'noShow']">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                    <div :class="[activeIndex === 'apparatus' ? 'simple': 'noShow']">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
                  </div>
             </div>
         </div>

@@ -1,8 +1,7 @@
 <template>
     <div class="achievement">
         <Navigation />
-        联系我们
-        <Footer />
+        <!-- <Footer /> -->
     </div>
 </template>
 

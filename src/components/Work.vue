@@ -1,8 +1,7 @@
 <template>
     <div class="achievement">
         <Navigation />
-        在研工作
-        <Footer />
+        <!-- <Footer /> -->
     </div>
 </template>
 

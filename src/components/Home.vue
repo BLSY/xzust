@@ -2,17 +2,6 @@
   <div class="indexBox">
     <Navigation />
     <Banner />
-    <!-- <div class="top">
-      <div class="toptext">
-        <h3 class="h-text">西藏农牧学院水利水电工程</h3>
-        <h3 class="h-text" >郭永刚老师课题组</h3>
-        <div class="detil">
-          文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字
-        </div>
-      </div>
-      <div class="starvidio">
-        </div>
-    </div> -->
     <div class="team">
       <div class="team-box">
       <div class="team-left">
@@ -369,8 +358,6 @@ html{
     display: -webkit-box;
     -webkit-line-clamp: 3;
    -webkit-box-orient: vertical;
-  }
-  .show-icon{
   }
   .icon-circle{
     width: 30px;
